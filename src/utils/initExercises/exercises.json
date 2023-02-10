@@ -1,0 +1,274 @@
+{
+  "exercises": [
+    {
+      "name": "Flat Barbell Bench Press",
+      "category": "Chest",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Incline Barbell Bench Press",
+      "category": "Chest",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Decline Barbell Bench Press",
+      "category": "Chest",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Flat Dumbbell Bench Press",
+      "category": "Chest",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Incline Dumbbell Bench Press",
+      "category": "Chest",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Decline Dumbbell Bench Press",
+      "category": "Chest",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Chin Up",
+      "category": "Back",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Seated Dumbbell Press",
+      "category": "Shoulders",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Ring Dip",
+      "category": "Chest",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Lateral Cable Raise",
+      "category": "Shoulders",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Lateral Dumbbell Raise",
+      "category": "Shoulders",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Barbell Curl",
+      "category": "Biceps",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Tricep Extension",
+      "category": "Triceps",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Squat",
+      "category": "Legs",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Leg Extension",
+      "category": "Legs",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Hammstring Leg Curl",
+      "category": "Legs",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Deadlift",
+      "category": "Back",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Sumo Deadlift",
+      "category": "Back",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Seated Machine Chest Press",
+      "category": "Chest",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Seated Machine Shoulder Press",
+      "category": "Shoulders",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Seated Calf Raise",
+      "category": "Legs",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Donkey Calf Raise",
+      "category": "Legs",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Standing Calf Raise",
+      "category": "Legs",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Seated Machine Curl",
+      "category": "Biceps",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Lat Pulldown",
+      "category": "Back",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Pull Up",
+      "category": "Back",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Push Up",
+      "category": "Chest",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Leg Press",
+      "category": "Legs",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Push Press",
+      "category": "Shoulders",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Dumbbell Curl",
+      "category": "Biceps",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Decline Hammer Strength Chest Press",
+      "category": "Chest",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Leg Extension Machine",
+      "category": "Legs",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Seated Calf Raise Machine",
+      "category": "Legs",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Lying Triceps Extension",
+      "category": "Triceps",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Cable Curl",
+      "category": "Biceps",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Hammer Strength Shoulder Press",
+      "category": "Shoulders",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "EZ-Bar Skullcrusher",
+      "category": "Triceps",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Dumbbell Shrugs",
+      "category": "Back",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Barbell Row",
+      "category": "Back",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Dumbbell Hammer Curl",
+      "category": "Biceps",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Dumbbell Row",
+      "category": "Back",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Barbell Glute Bridge",
+      "category": "Legs",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Parallel Bar Tricep Dips",
+      "category": "Triceps",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Cable Face Pulls",
+      "category": "Shoulders",
+      "notes": "",
+      "format": "weight"
+    },
+    {
+      "name": "Dumbbell Overhead Tricep Extensions",
+      "category": "Triceps",
+      "notes": "",
+      "format": "weight"
+    }
+  ]
+}
