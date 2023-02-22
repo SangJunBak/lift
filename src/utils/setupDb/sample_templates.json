@@ -1,0 +1,100 @@
+{
+  "templates": [
+    {
+      "name": "Push",
+      "exercises": [
+        {
+          "name": "Flat Barbell Bench Press",
+          "category": "Chest"
+        },
+        {
+          "name": "Seated Dumbbell Press",
+          "category": "Shoulders"
+        },
+        {
+          "name": "Parallel Bar Triceps Dip",
+          "category": "Triceps"
+        },
+        {
+          "name": "Lateral Dumbbell Raise",
+          "category": "Shoulders"
+        },
+        {
+          "name": "Face Pulls",
+          "category": "Shoulders"
+        }
+      ]
+    },
+    {
+      "name": "Pull",
+      "exercises": [
+        {
+          "name": "Barbell Row",
+          "category": "Back"
+        },
+        {
+          "name": "Dumbbell Curl",
+          "category": "Biceps"
+        },
+        {
+          "name": "Pull Up",
+          "category": "Back"
+        },
+        {
+          "name": "Dumbbell Hammer Curl",
+          "category": "Biceps"
+        },
+        {
+          "name": "Dumbbell Row",
+          "category": "Back"
+        }
+      ]
+    },
+    {
+      "name": "Legs",
+      "exercises": [
+        {
+          "name": "Barbell Squat",
+          "category": "Legs"
+        },
+        {
+          "name": "Leg Extension",
+          "category": "Legs"
+        },
+        {
+          "name": "Seated Leg Curl",
+          "category": "Legs"
+        },
+        {
+          "name": "Dumbbell Calf Raise",
+          "category": "Legs"
+        }
+      ]
+    },
+    {
+      "name": "Upper",
+      "exercises": [
+        {
+          "name": "Overhead Press",
+          "category": "Shoulders"
+        },
+        {
+          "name": "Incline Dumbbell Bench Press",
+          "category": "Chest"
+        },
+        {
+          "name": "Front Dumbbell Raise",
+          "category": "Shoulders"
+        },
+        {
+          "name": "Parallel Bar Triceps Dip",
+          "category": "Triceps"
+        },
+        {
+          "name": "Dumbbell Shrugs",
+          "category": "Back"
+        }
+      ]
+    }
+  ]
+}
