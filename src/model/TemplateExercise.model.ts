@@ -1,6 +1,8 @@
-import {Model} from '@nozbe/watermelondb';
+import {Model, Relation} from '@nozbe/watermelondb';
 import {immutableRelation} from '@nozbe/watermelondb/decorators';
 import {Associations} from '@nozbe/watermelondb/Model';
+import {Exercise} from './Exercise.model';
+import {Template} from './Template.model';
 
 export class TemplateExercise extends Model {
   static table = 'template_exercises';
@@ -8,6 +10,6 @@ export class TemplateExercise extends Model {
     templates: {type: 'belongs_to', key: 'template_id'},
     exercises: {type: 'belongs_to', key: 'exercise_id'},
   };
-  @immutableRelation('templates', 'template_id') template!: string;
-  @immutableRelation('exercises', 'exercise_id') exercise!: string;
+  @immutableRelation('templates', 'template_id') template!: Relation<Template>;
+  @immutableRelation('exercises', 'exercise_id') exercise!: Relation<Exercise>;
 }
