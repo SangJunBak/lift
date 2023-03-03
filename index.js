@@ -8,16 +8,8 @@ import {database} from 'db';
 
 AppRegistry.registerComponent(appName, () => App);
 
-/**
- * Initialize database with exercises
- */
-
 async function init() {
   await setupDb(database);
-  // await initExercises(database);
-
-  // const allExercises = await database.get('exercises').query().fetch();
-  // console.log(allExercises);
 }
 
 init().catch(err => console.log(err));

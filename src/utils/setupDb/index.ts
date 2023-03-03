@@ -3,6 +3,7 @@ import {Database} from '@nozbe/watermelondb';
 import {Exercise} from 'src/model/Exercise.model';
 import {Template} from 'src/model/Template.model';
 import {TemplateExercise} from 'src/model/TemplateExercise.model';
+import {createWorkoutFromTemplate, Workout} from 'src/model/Workout.model';
 
 // import * as exercisesJSON from './exercises.json';
 import * as sampleTemplatesJSON from './sample_templates.json';
@@ -80,16 +81,15 @@ export async function setupDb(database: Database) {
     await database.batch(...templateExercisesTableBatch);
   });
 
-  console.log(
-    'Exercises table',
-    await database.get('exercises').query().fetch(),
-  );
-  console.log(
-    'Templates table',
-    await database.get('templates').query().fetch(),
-  );
-  console.log(
-    'Template exercises table',
-    await database.get('template_exercises').query().fetch(),
-  );
+  const templates = await database.get<Template>('templates').query().fetch();
+
+  // console.log('Templates table', templates);
+
+  const pushTemplate = templates.find(template => template.name === 'Push');
+
+  await createWorkoutFromTemplate(pushTemplate!);
+
+  const workouts = await database.get<Workout>('workouts').query().fetch();
+
+  console.log('Workouts', await workouts[0].orderedWorkoutExercises.fetch());
 }

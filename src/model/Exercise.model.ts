@@ -6,7 +6,7 @@ export class Exercise extends Model {
   static table = 'exercises';
 
   static associations: Associations = {
-    templates: {type: 'has_many', foreignKey: 'exercise_id'},
+    template_exercises: {type: 'has_many', foreignKey: 'exercise_id'},
   };
 
   @field('name') name!: string;

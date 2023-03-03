@@ -1,6 +1,7 @@
-import {Model} from '@nozbe/watermelondb';
-import {field} from '@nozbe/watermelondb/decorators';
+import {Model, Relation} from '@nozbe/watermelondb';
+import {field, immutableRelation} from '@nozbe/watermelondb/decorators';
 import {Associations} from '@nozbe/watermelondb/Model';
+import {WorkoutExercise} from './WorkoutExercise.model';
 
 export class Set extends Model {
   static table = 'sets';
@@ -12,6 +13,9 @@ export class Set extends Model {
   @field('weight') weight!: number;
   @field('reps') reps!: number;
   @field('position') position!: number;
+
+  @immutableRelation('workout_exercises', 'workout_exercise_id')
+  workoutExercise!: Relation<WorkoutExercise>;
 
   /** TODO
    * Implement updateReps and updateWeight
